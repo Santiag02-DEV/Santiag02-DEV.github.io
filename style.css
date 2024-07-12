@@ -16,18 +16,17 @@ body {
     overflow: hidden;
 }
 
-.container{
+.container {
     width: 95%;
     height: 100%;
     max-width: 1200px;
- /*    border: 1px solid red; */
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
-.box{
+.box {
     height: 90%;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
@@ -59,7 +58,7 @@ body {
     height: 80%;
 }
 
-h3{
+h3 {
     font-weight: 600;
     color: white;
     padding: 5px;
@@ -80,7 +79,6 @@ h3{
 .redes i {
     font-size: 25px;
     color: white;
- 
 }
 
 .boxTwo {
@@ -90,9 +88,7 @@ h3{
     align-items: center;
 }
 
-.name{
-   /*  border: 1px solid rgb(255, 0, 0); */
-}
+.name {}
 
 #name {
     width: 350px;
@@ -104,30 +100,23 @@ h3{
     font-weight: 600;
     border-left: 1px solid white;
     border-bottom: 1px solid white;
-   
 }
 
 .logo {
-    /* width: 700px;
-    height: 700px; */
-   /*  border: 1px solid white; */
-   margin-top: 100px;
+    margin-top: 100px;
 }
 
 .logo img {
     width: 100%;
-
     height: 100%;
     opacity: 0.4;
 }
 
 .organizacion {
-   /*  border: 1px solid rgb(255, 0, 0); */
     width: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     background-color: rgba(255, 255, 255, 0.315);
     border-radius: 5px;
     backdrop-filter: blur(10px);
@@ -138,15 +127,14 @@ h3{
     margin-bottom: 25px;
 }
 
-.organizacion2{
+.organizacion2 {
     text-align: left;
     gap: 5px;
-    /* border: 1px solid rgb(200, 255, 0); */
     width: 160px;
     padding-left: 15px;
 }
 
-.organizacion2 i{
+.organizacion2 i {
     transition: all .5s;
 }
 
@@ -155,37 +143,36 @@ h3{
     translate: 0px -2px;
 }
 
-a, h4, p{
+a, h4, p {
     text-decoration: none;
     color: white;
     font-weight: 100;
 }
 
-.organizacion p{
+.organizacion p {
     color: white;
     font-weight: 200;
-  /*   border: 1px solid rgb(225, 0, 255); */
 }
 
-.organizacion a{
+.organizacion a {
     display: block;
     width: 100%;
     text-align: center;
-    /* border:1px solid blue; */
     display: flex;
     justify-content: center;
 }
 
-span{
+span {
     font-weight: 500;
     color: white;
 }
 
-.mail{
-   font-size: 13px;
+.mail {
+    font-size: 13px;
 }
 
-.organizacion:hover .fa-envelope, .organizacion:hover {
+.organizacion:hover .fa-envelope,
+.organizacion:hover {
     color: #a01a18;
 }
 
@@ -193,7 +180,8 @@ span{
     color: #47CF73;
 }
 
-.organizacion:hover .fa-linkedin, .organizacion:hover {
+.organizacion:hover .fa-linkedin,
+.organizacion:hover {
     color: #0077B5;
 }
 
@@ -201,32 +189,31 @@ span{
     color: #24292E;
 }
 
-@media  (max-width: 720px) {
-    .boxOne{
+/* Media Queries */
+@media (max-width: 720px) {
+    .boxOne {
         width: 30%;
     }
 
-    .boxTwo{
+    .boxTwo {
         width: 60%;
     }
 
-    .foto{
+    .foto {
         width: 100px;
         height: 100px;
         margin-bottom: 10px;
     }
 
-    #name{
+    #name {
         font-size: 30px;
     }
 
-    
-
-    h3{
+    h3 {
         font-size: 14px;
     }
 
-    .redes{
+    .redes {
         width: 80%;
     }
 
@@ -236,12 +223,12 @@ span{
     }
 }
 
-@media  (max-width: 375px) {
-    .container{
+@media (max-width: 375px) {
+    .container {
         flex-direction: column;
     }
 
-    .redes{
+    .redes {
         padding-top: 10px;
         padding-left: 10px;
         display: flex;
@@ -249,7 +236,7 @@ span{
         justify-content: center;
     }
 
-    .boxOne{
+    .boxOne {
         width: 100%;
         height: 40%;
     }
@@ -259,40 +246,37 @@ span{
         margin-right: 10px;
     }
 
-    .organizacion span{
-    display: none;
-    }
-
-    .organizacion p{
+    .organizacion span {
         display: none;
     }
 
-    .organizacion2{
-        width: 50px;
-        padding-left: 6px;
-        
+    .organizacion p {
+        display: none;
     }
 
-    h3{
+    .organizacion2 {
+        width: 50px;
+        padding-left: 6px;
+    }
+
+    h3 {
         width: 65%;
         text-align: center;
     }
 
-    .mail{
+    .mail {
         display: none;
     }
-    
 
-    .boxTwo{
+    .boxTwo {
         width: 100%;
-        display: flex;  
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #name{
+    #name {
         font-size: 20px;
         width: 250px;
     }
-
 }
