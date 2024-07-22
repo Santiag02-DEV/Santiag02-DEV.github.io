@@ -224,6 +224,11 @@ span {
 }
 
 @media (max-width: 400px) {
+    body{
+        min-height: 100vh;
+        overflow: scroll;
+    }
+
     .container {
         flex-direction: column;
     }
