@@ -165,8 +165,8 @@ span {
     color: white;
 }
 
-.mail {
-    font-size: 13px;
+.mail p{
+    font-size: 14px;
 }
 
 .organizacion:hover .fa-envelope,
