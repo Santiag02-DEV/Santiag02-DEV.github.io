@@ -51,11 +51,17 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    overflow: hidden;
 }
 
 .foto img {
     width: 80%;
     height: 80%;
+    transition: all .5s;
+}
+
+.foto img:hover{
+    transform: scale(1.2);
 }
 
 h3 {
@@ -104,6 +110,13 @@ h3 {
 
 .logo{
     position: relative;
+    z-index: 0;
+}
+
+.correo{
+    display: none;
+    position: relative;
+    z-index: 1;
 }
 
 .logo img {
@@ -248,9 +261,7 @@ span {
     text-align: justify ;
 }
 
-.correo{
-    display: none;
-}
+
 
 @media (max-width: 720px) {
     .boxOne {
